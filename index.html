@@ -1,35 +1,152 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Mi página web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Personal</title>
+    <style>
+    /* styles.css */
+    /* Estilos generales */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+    }
+               
+
+    h1, h2, h3 {
+        margin-top: 0;
+    }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    section {
+        margin-bottom: 30px;
+    }
+
+    /* Estilos específicos */
+    #inicio {
+        background-color: #00AEEF;
+        padding: 20px;
+    }
+    /* styles.css */
+
+    #inicio img {
+                max-width: 180px; /* Establece un ancho máximo de 300 píxeles */
+                height: 180px; /* Mantiene la proporción de aspecto */
+                border-radius: 50%;
+            }
+
+    #sobremi {
+        background-color: #36B5D7;
+        padding: 20px;
+    }
+
+    #proyectos {
+        background-color: #2E9BBF;
+        padding: 20px;
+    }
+
+    #contacto {
+        background-color: #36B5D7;
+        padding: 20px;
+    }
+
+    footer {
+        background-color: #808080;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+        
+        </style>
+    <link rel="stylesheet" href="styles.css"> <!-- Archivo CSS para estilos -->
 </head>
 <body>
-    <header>
-        <h1>Bienvenido a mi página web</h1>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
-
+    <header>       
+        <h1>Leonel Bravo</h1>
+        <nav>
+            <ul>                
+                <li><a href="#inicio">Inicio</a></li>                  
+                <li><a href="#sobremi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>    
     <main>
-        <section>
-            <h2>Sobre mí</h2>
-            <p>Hola, soy Leonel Bravo. Esta es mi primera página web realizada con ChatGPT , espero te guste! </p>
+        <section id="inicio">  
+            <img src="https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1174&q=80" alt="Mi Logo">                     
+            <h2>¡Hola, gracias por tu visita!</h2>
+            <p>Bienvenido a mi portafolio personal y profesional.</p>
         </section>
-
-        <section>
+        
+        <section id="sobremi">
+            <h2>¡Hola, soy Leonel Bravo!</h2>
+            <p>Soy Ingeniero Electrónico, apasionado por la Tecnología, la innovación y el mundo Crypto.</p>
+            <p>Con 10 años de experiencia en el sector Telcos, he tenido la oportunidad de trabajar en el área de Implementación de Proyectos Broadband.</p>
+            <p>Me especializo en pruebas funcionales a software y homologación de aplicativos a nivel LATAM, ahora mismo estoy iniciando mi camino en el mundo del desarrollo web y la Analítica de datos.</p>
+            <p>En mi tiempo libre, me encanta autoaprender, investigar, jugar fútbol y disfrutar la vida con mi hermosa familía.</p>
+            <p>Estoy emocionado por aprender y sumar nuevas habilidades en el desarrollo web con IA, emplear la Analítica de Datos para toma de decisiones y me encantaría ser parte de tu próximo proyecto.</p>
+            </div>
+            </section>
+            
+            <section id="presentacion">
+                <div class="container">             
+                                           
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <ul>
+                <li>
+                    <h3>Proyecto 1</h3>
+                    <p>Descripción del proyecto 1.</p>
+                </li>
+                <li>
+                    <h3>Proyecto 2</h3>
+                    <p>Descripción del proyecto 2.</p>
+                </li>
+                <!-- Agrega más proyectos aquí -->
+            </ul>
+        </section>
+        
+        <section id="contacto">
             <h2>Contacto</h2>
-            <p>Puedes contactarme en leobra86@gmail.com </p>
+            <p>Puedes contactarme a través de los siguientes medios:</p>
+            <ul>
+                <li>Email: leobra86@gmail.com</li>
+                <li>LinkedIn: <a href="linkedin.com/in/leonel-bravo">Mi Perfil</a></li>
+            </ul>
         </section>
     </main>
-
+    
     <footer>
-        <p>Derechos de autor &copy; 2023 Leonel Bravo</p>
+        <p>&copy; 2023 Mi Portafolio Personal. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
+
+
