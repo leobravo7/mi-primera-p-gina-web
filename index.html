@@ -12,6 +12,21 @@
         margin: 0;
         padding: 0;
     }
+    
+    p { 
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 20px; /* Espacio hacia abajo */
+        
+    }
+    ul {
+        list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+    }
+
 
     header {
         background-color: #333;
@@ -23,7 +38,9 @@
     h1, h2, h3 {
         margin-top: 0;
     }
-
+    h1 {
+        margin-bottom: 20px; /* Espacio hacia abajo */
+    }
     nav ul {
         list-style: none;
         margin: 0;
@@ -52,6 +69,7 @@
     #inicio {
         background-color: #00AEEF;
         padding: 20px;
+        text-align: center;
     }
     /* styles.css */
 
@@ -59,6 +77,10 @@
                 max-width: 180px; /* Establece un ancho máximo de 300 píxeles */
                 height: 180px; /* Mantiene la proporción de aspecto */
                 border-radius: 50%;
+                display: inline-block;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                justify-content: center;
             }
 
     #sobremi {
@@ -88,7 +110,6 @@
 </head>
 <body>
     <header>       
-        <h1>Leonel Bravo</h1>
         <nav>
             <ul>                
                 <li><a href="#inicio">Inicio</a></li>                  
@@ -99,14 +120,20 @@
         </nav>
     </header>    
     <main>
-        <section id="inicio">  
-            <img src="https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1174&q=80" alt="Mi Logo">                     
-            <h2>¡Hola, gracias por tu visita!</h2>
-            <p>Bienvenido a mi portafolio personal y profesional.</p>
-        </section>
+            <section id="inicio">  
+                <img src="https://i.pinimg.com/564x/09/20/8d/09208d4579fb6164441bfa9e84851dc6.jpg" alt="Mi Logo">                     
+                <h1>Leonel Bravo</h1>
+                   <p>¡Hola, gracias por tu visita! Bienvenido a mi portafolio personal y profesional.</p>
+
+                    <ul class="social-media-links">
+                        <li><a href="https://www.facebook.com/tu_perfil" >Facebook</a></li>
+                        <li><a href="https://www.twitter.com/tu_perfil" >Twitter</a></li>
+                        <li><a href="https://www.instagram.com/tu_perfil">Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/in/tu_perfil">Linkedin</a></li>
+                    </ul>
+            </section>
         
         <section id="sobremi">
-            <h2>¡Hola, soy Leonel Bravo!</h2>
             <p>Soy Ingeniero Electrónico, apasionado por la Tecnología, la innovación y el mundo Crypto.</p>
             <p>Con 10 años de experiencia en el sector Telcos, he tenido la oportunidad de trabajar en el área de Implementación de Proyectos Broadband.</p>
             <p>Me especializo en pruebas funcionales a software y homologación de aplicativos a nivel LATAM, ahora mismo estoy iniciando mi camino en el mundo del desarrollo web y la Analítica de datos.</p>
